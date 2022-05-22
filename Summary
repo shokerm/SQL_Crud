@@ -14,7 +14,7 @@ USE University;
 --WHERE FirstName LIKE '%E' -- כאשר מסתיים באות
 --WHERE FirstName LIKE 'M%' -- כאשר מתחיל באות 
 --WHERE NOT (AGE >=30)	--כאשר הגיל גדול או שווה ל-30 
---WHERE  (AGE >=30)	AND FirstName LIKE 'S%' - גם כשהגיל גדול או שווה ל-30 וגם שהאות הראשונה היא S.
+--WHERE  (AGE >=30)	AND FirstName LIKE 'S%' -.'S' גם כשהגיל גדול או שווה ל-30 וגם שהאות הראשונה היא 
 
 
 --UPDATE
