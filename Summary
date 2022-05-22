@@ -1,0 +1,28 @@
+--CRUD
+USE University;
+
+--CREATE
+--INSERT INTO Students(FirstName,LastName,Email,Age)
+--VALUES
+--('Gil','Avrahami','Gil@gmail.com',27),
+--('Yotam','Gershoni','Yotam@gmail.com',19)
+
+
+--READ
+--SELECT * FROM Students
+--WHERE FirstName IN ('MOSHE','DAN','Yoav') -- כאשר יש אחד מן הערכים הבאים בשדה
+--WHERE FirstName LIKE '%E' -- כאשר מסתיים באות
+--WHERE FirstName LIKE 'M%' -- כאשר מתחיל באות 
+--WHERE NOT (AGE >=30)	--כאשר הגיל גדול או שווה ל-30 
+--WHERE  (AGE >=30)	AND FirstName LIKE 'S%' - גם כשהגיל גדול או שווה ל-30 וגם שהאות הראשונה היא S.
+
+
+--UPDATE
+--UPDATE Students 
+--SET FirstName ='Dani'
+--WHERE Id = 4
+
+
+--DELETE
+--DELETE FROM Students // TRUNCATE TABLE Students;
+--WHERE Id = 10
